@@ -1,0 +1,30 @@
+.card__container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px auto;
+} 
+
+
+.english{
+    color:#3037ee; 
+    font-size:  28px;
+}
+.russian{
+    color:#B38C66; 
+    font-size: 36px;
+}
+.russian:hover{
+    cursor: pointer; 
+}
+.transcription{
+color: rgb(92, 119, 240);
+font-size: 18px;
+}
+
+ .check_btn:active{
+    cursor: pointer; 
+    box-shadow: 0 1px 0 white;
+    transition: all 0.1s ease 0s;
+}

@@ -1,0 +1,37 @@
+.container__main {
+      border-radius: 0px;
+      height: 100px;
+    }
+    
+    .cards_conteiner {
+      display: flex;
+      justify-content: center;
+      max-width: 70%;
+      padding-left: 15%;
+      align-items: center;
+      
+    }
+    
+    .card__list {
+      margin-top: 10px;
+    }
+    
+    .card__text {
+      color:#28201E; 
+      font-size:  28px;
+    }
+
+    .btn {
+      background-color: #da45b2; 
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      cursor: pointer;
+    }
